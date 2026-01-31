@@ -6,7 +6,30 @@
     <title>Flexbox Centralizado</title>
     <style>
         * {
-            
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: lightsalmon;
+        }
+
+        main {
+            background-color: lightgreen;
+            height: 100vh;
+            width: 100vw;
+
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section {
+            background-color: lightseagreen;
+            height: 200px;
+            width: 200px;
         }
     </style>
 </head>
@@ -18,3 +41,6 @@
     </main>
 </body>
 </html>
+
+
+<!--align content: stretch(padrão), flex-start, flex-end, center, space-between, space-evenly, space-around-->
